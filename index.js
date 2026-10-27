@@ -1,4 +1,3 @@
-```javascript
 const searchForm = document.getElementById("searchForm");
 const wordInput = document.getElementById("wordInput");
 const searchButton = document.getElementById("searchButton");
@@ -14,10 +13,6 @@ const audioButton = document.getElementById("audioButton");
 
 let audioUrl = "";
 
-
-/* =========================
-   SEARCH FORM
-========================= */
 
 searchForm.addEventListener("submit", function (event) {
   event.preventDefault();
@@ -243,4 +238,3 @@ function showMessage(text) {
   message.textContent = text;
 
 }
-```
